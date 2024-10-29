@@ -1,0 +1,23 @@
+
+<div class="flex justify-center h-screen">
+
+    <form [formGroup]="formularioRegistro" action="">
+
+        <h3>REGISTRO</h3>
+
+        <div class="flex flex-col">
+            <label>Email</label>
+            <input type="text" formControlName="email">
+
+            <label>Password</label>
+            <input type="text" formControlName="password">
+
+            <button (click)="onSubmit()" class=" text-white mt-4 rounded-2xl" style="background-color: #E91E63;">Enviar</button>
+        </div>
+
+
+
+        
+    </form>
+
+</div>
